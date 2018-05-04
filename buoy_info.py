@@ -4,10 +4,8 @@ Put all buoy reference information in here to be read in by all notebooks.
 
 import pandas as pd
 
-base = 'drive_data/'
-
 # read in buoy info
-bys = pd.read_csv(base + 'buoys.csv', index_col=0).to_dict('index')
+bys = pd.read_csv('drive_data/stations/buoys.csv', index_col=0).to_dict('index')
 
 # For station g06010, the single time series data given at
 # https://tidesandcurrents.noaa.gov/cdata/DataPlot?id=g06010&bin=0&bdate=20180421&edate=20180422&unit=1&timeZone=UTC
