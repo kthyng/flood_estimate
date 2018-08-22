@@ -11,7 +11,7 @@ bys = pd.read_csv('drive_data/stations/buoys.csv', index_col=0).to_dict('index')
 # https://tidesandcurrents.noaa.gov/cdata/DataPlot?id=g06010&bin=0&bdate=20180421&edate=20180422&unit=1&timeZone=UTC
 # is equivalent to depth 5.79 from the depths file, which the top of the 1 m-deep
 # bin and listed as bin 3 or 21 feet on the PORTS website. The center of the
-# bin is approximately 6.305. The depths file gives the depth of the top of the
+# bin is approximately 6.29. The depths file gives the depth of the top of the
 # bin.
 # The way to back out the depths from the information in that file is, e.g for
 # the first bin top of bin:
